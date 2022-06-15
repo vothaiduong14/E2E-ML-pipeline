@@ -43,10 +43,8 @@ def show_heatmap(data, figsize=(12,8),
 
 def show_pairplot(data, 
                   highest_only=False, 
-                  thresold=0.7, # Look at only highly correlated pairs
-                  frac = 0.3 # Visualize only a fraction of the data for faster output
+                  thresold=0.7 # Look at only highly correlated pairs
                   ): 
-    data = data.sample(frac=frac, replace=False, random_state=42).reset_index(drop=True)
     correlation_matrix = data.corr()
     high_corr = correlation_matrix[np.abs(correlation_matrix )>= thresold]
     plt.figure()  
