@@ -1,0 +1,15 @@
+artifact_uri: file:///home/duong/Desktop/GitFolder/E2E-ML-pipeline-with-data/model_dev/mlruns/2/012f282032aa451a9eb7d69e89c86530/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: 012f282032aa451a9eb7d69e89c86530
+run_uuid: 012f282032aa451a9eb7d69e89c86530
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1655359619881
+status: 1
+tags: []
+user_id: duong

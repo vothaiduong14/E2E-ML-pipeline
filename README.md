@@ -1,4 +1,3 @@
-(In progress)
 
 The dataset is the cross-sell dataset for Insurance product. Our challenge is to build a binary classification model that predicts whether a customer is going to buy a complementary product.
 
@@ -22,3 +21,6 @@ All experiments are tracked with Mlflow. The best model is chosen for deployment
 ML Implementation
 =================
 Deploy the trained model to backend. We build our backend using FastAPI and frontend using Streamlit. The app is dockerized for easy deployment on cloud services (if needed).
+
+### Demo Instruction
+To check out the app, download folder 'app' and run 'docker-compose up' in the directory.

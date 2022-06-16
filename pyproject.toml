@@ -18,6 +18,7 @@ pycaret = "^2.3.10"
 scikit-learn = "0.23.2"
 uvicorn = "^0.17.6"
 h2o = "^3.36.1"
+python-multipart = "^0.0.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

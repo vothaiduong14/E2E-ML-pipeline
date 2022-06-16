@@ -1,0 +1,6 @@
+mlflow
+cffi==1.15.0
+defusedxml==0.7.1
+h2o==3.36.1.2
+ipykernel==6.13.0
+matplotlib==3.5.2

@@ -1,0 +1,17 @@
+
+services:
+  frontend: #streamlit
+    build: frontend
+    ports:
+      - 8501:8501
+    depends_on:
+      - backend
+    volumes:
+      - ./storage:/storage
+
+  backend: #fastapi
+    build: backend
+    ports:
+      - 8080:8080
+    volumes:
+      - ./storage:/storage

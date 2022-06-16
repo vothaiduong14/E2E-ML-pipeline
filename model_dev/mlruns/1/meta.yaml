@@ -1,0 +1,4 @@
+artifact_location: file:///home/duong/Desktop/GitFolder/E2E-ML-pipeline-with-data/model_dev/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: cross-sell
